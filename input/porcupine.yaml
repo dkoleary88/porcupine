@@ -653,7 +653,7 @@ pcbs:
           rotate: 0
         params:
           layer: F.SilkS
-          text: "porcupine v0.1\\nby AnarioN"
+          text: "porcupine"
           justify: left
       info_r:
         what: text
@@ -664,7 +664,7 @@ pcbs:
           rotate: 0
         params:
           layer: B.SilkS
-          text: "porcupine v0.1\\nby AnarioN"
+          text: "porcupine"
           justify: left mirror
       tenting_puck:
         what: tentingpuck
@@ -689,24 +689,6 @@ pcbs:
           ref:
             - matrix_index_bottom
           shift: [-2.1 kx, -1.92kx]
-        params:
-          side: B
-      porcupine_l:
-        what: porcupine_new
-        adjust:
-          ref:
-            - matrix_index_bottom
-          shift: [-22, -20]
-          rotate: 0
-        params:
-          side: F
-      porcupine_r:
-        what: porcupine_new
-        adjust:
-          ref:
-            - matrix_index_bottom
-          shift: [-22, -20]
-          rotate: 0
         params:
           side: B
       mcu_solder_l:
@@ -759,371 +741,371 @@ pcbs:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [27.5,-6.3]
+          shift: [27.5, -6.3]
         params:
           net: RAW
       via_Bplus_1:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [26,-4]
+          shift: [26, -4]
         params:
           net: Bplus
       via_GND_1:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [21,-4]
+          shift: [21, -4]
         params:
           net: GND
       via_GND_2:
         what: simple_via
         adjust:
           ref: matrix_ring_top
-          shift: [11,3]
+          shift: [11, 3]
         params:
           net: GND
       via_GND_3:
         what: simple_via
         adjust:
           ref: matrix_ring_top
-          shift: [12,-3]
+          shift: [12, -3]
         params:
           net: GND
       via_GND_4:
         what: simple_via
         adjust:
           ref: matrix_middle_top
-          shift: [12,-1]
+          shift: [12, -1]
         params:
           net: GND
       via_GND_5:
         what: simple_via
         adjust:
           ref: matrix_inner_top
-          shift: [-3,-2]
+          shift: [-3, -2]
         params:
           net: GND
       via_GND_6:
         what: simple_via
         adjust:
           ref: matrix_inner_home
-          shift: [-7,-2]
+          shift: [-7, -2]
         params:
           net: GND
       via_GND_7:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [-3,-2.5]
+          shift: [-3, -2.5]
         params:
           net: GND
       via_GND_8:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [5,-2.5]
+          shift: [5, -2.5]
         params:
           net: GND
       via_GND_9:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [9.5,-2]
+          shift: [9.5, -2]
         params:
           net: GND
       via_RST_1:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [14.5,-6.5]
+          shift: [14.5, -6.5]
         params:
           net: RST
       via_RST_2:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [27,-9]
+          shift: [27, -9]
         params:
           net: RST
       via_Bplus_2:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [31.5,-4]
+          shift: [31.5, -4]
         params:
           net: Bplus
       via_p20_1:
         what: simple_via
         adjust:
           ref: matrix_pinky_top
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P20
       via_pinky_top:
         what: simple_via
         adjust:
           ref: matrix_pinky_top
-          shift: [-5,8]
+          shift: [-5, 8]
         params:
           net: pinky_top
       via_P20_2:
         what: simple_via
         adjust:
           ref: matrix_pinky_home
-          shift: [-2.5,3]
+          shift: [-2.5, 3]
         params:
           net: P20
       via_pinky_home:
         what: simple_via
         adjust:
           ref: matrix_pinky_home
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: pinky_home
       via_P20_3:
         what: simple_via
         adjust:
           ref: matrix_pinky_bottom
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P20
       via_pinky_bottom:
         what: simple_via
         adjust:
           ref: matrix_pinky_bottom
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: pinky_bottom
       via_P19_1:
         what: simple_via
         adjust:
           ref: matrix_ring_top
-          shift: [-2.5,3]
+          shift: [-2.5, 3]
         params:
           net: P19
       via_ring_top:
         what: simple_via
         adjust:
           ref: matrix_ring_top
-          shift: [-5,8]
+          shift: [-5, 8]
         params:
           net: ring_top
       via_P19_2:
         what: simple_via
         adjust:
           ref: matrix_ring_home
-          shift: [-2.5,3]
+          shift: [-2.5, 3]
         params:
           net: P19
       via_ring_home:
         what: simple_via
         adjust:
           ref: matrix_ring_home
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: ring_home
       via_P19_3:
         what: simple_via
         adjust:
           ref: matrix_ring_bottom
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P19
       via_ring_bottom:
         what: simple_via
         adjust:
           ref: matrix_ring_bottom
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: ring_bottom
       via_P18_1:
         what: simple_via
         adjust:
           ref: matrix_middle_top
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P18
       via_middle_top:
         what: simple_via
         adjust:
           ref: matrix_middle_top
-          shift: [-5,8]
+          shift: [-5, 8]
         params:
           net: middle_top
       via_P18_2:
         what: simple_via
         adjust:
           ref: matrix_middle_home
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P18
       via_middle_home:
         what: simple_via
         adjust:
           ref: matrix_middle_home
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: middle_home
       via_P18_3:
         what: simple_via
         adjust:
           ref: matrix_middle_bottom
-          shift: [-3,3]
+          shift: [-3, 3]
         params:
           net: P18
       via_middle_bottom:
         what: simple_via
         adjust:
           ref: matrix_middle_bottom
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: middle_bottom
       via_P15_1:
         what: simple_via
         adjust:
           ref: matrix_index_top
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P15
       via_index_top:
         what: simple_via
         adjust:
           ref: matrix_index_top
-          shift: [-5,8]
+          shift: [-5, 8]
         params:
           net: index_top
       via_P15_2:
         what: simple_via
         adjust:
           ref: matrix_index_home
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P15
       via_index_home:
         what: simple_via
         adjust:
           ref: matrix_index_home
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: index_home
       via_P15_3:
         what: simple_via
         adjust:
           ref: matrix_index_bottom
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P15
       via_index_bottom:
         what: simple_via
         adjust:
           ref: matrix_index_bottom
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: index_bottom
       via_P14_1:
         what: simple_via
         adjust:
           ref: matrix_inner_top
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P14
       via_inner_top:
         what: simple_via
         adjust:
           ref: matrix_inner_top
-          shift: [-5,8]
+          shift: [-5, 8]
         params:
           net: inner_top
       via_P14_2:
         what: simple_via
         adjust:
           ref: matrix_inner_home
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P14
       via_inner_home:
         what: simple_via
         adjust:
           ref: matrix_inner_home
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: inner_home
       via_P14_3:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P14
       via_inner_bottom:
         what: simple_via
         adjust:
           ref: matrix_inner_bottom
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: inner_bottom
       via_18_4:
         what: simple_via
         adjust:
           ref: thumbfan_near_thumb
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P18
       via_near_thumb:
         what: simple_via
         adjust:
           ref: thumbfan_near_thumb
-          shift: [-2,8.5]
+          shift: [-2, 8.5]
         params:
           net: near_thumb
       via_15_4:
         what: simple_via
         adjust:
           ref: thumbfan_home_thumb
-          shift: [0,3]
+          shift: [0, 3]
         params:
           net: P15
       via_home_thumb:
         what: simple_via
         adjust:
           ref: thumbfan_home_thumb
-          shift: [0,8.5]
+          shift: [0, 8.5]
         params:
           net: home_thumb
       via_14_4:
         what: simple_via
         adjust:
           ref: thumbfan_far_thumb
-          shift: [-2,3]
+          shift: [-2, 3]
         params:
           net: P14
       via_far_thumb:
         what: simple_via
         adjust:
           ref: thumbfan_far_thumb
-          shift: [4,8.5]
+          shift: [4, 8.5]
         params:
           net: far_thumb
       via_18_5:
         what: simple_via
         adjust:
           ref: thumbfan_near_thumb
-          shift: [-5,11]
+          shift: [-5, 11]
         params:
           net: P18
       via_15_5:
         what: simple_via
         adjust:
           ref: thumbfan_near_thumb
-          shift: [0,12]
+          shift: [0, 12]
         params:
           net: P15
       via_14_5:
         what: simple_via
         adjust:
           ref: thumbfan_near_thumb
-          shift: [8,13]
+          shift: [8, 13]
         params:
           net: P14
       zone_l:
